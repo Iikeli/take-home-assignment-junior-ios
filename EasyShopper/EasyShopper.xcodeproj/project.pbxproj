@@ -19,6 +19,7 @@
 		317447B12492B78A00862E28 /* ShoppingBasket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317447B02492B78A00862E28 /* ShoppingBasket.swift */; };
 		5482CA7E24AA1F0B0022AC7B /* ShoppingCartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5482CA7D24AA1F0B0022AC7B /* ShoppingCartView.swift */; };
 		5482CA8024AA21400022AC7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5482CA7F24AA21400022AC7B /* ContentView.swift */; };
+		5482CA8224AA39600022AC7B /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5482CA8124AA39600022AC7B /* ProductListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		317447B02492B78A00862E28 /* ShoppingBasket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingBasket.swift; sourceTree = "<group>"; };
 		5482CA7D24AA1F0B0022AC7B /* ShoppingCartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartView.swift; sourceTree = "<group>"; };
 		5482CA7F24AA21400022AC7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5482CA8124AA39600022AC7B /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				5482CA7D24AA1F0B0022AC7B /* ShoppingCartView.swift */,
+				5482CA8124AA39600022AC7B /* ProductListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				317447992492AE7000862E28 /* ViewController.swift in Sources */,
 				317447952492AE7000862E28 /* AppDelegate.swift in Sources */,
 				317447B12492B78A00862E28 /* ShoppingBasket.swift in Sources */,
+				5482CA8224AA39600022AC7B /* ProductListView.swift in Sources */,
 				317447972492AE7000862E28 /* SceneDelegate.swift in Sources */,
 				5482CA8024AA21400022AC7B /* ContentView.swift in Sources */,
 				317447AC2492AEE500862E28 /* DemoData.swift in Sources */,

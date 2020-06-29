@@ -8,7 +8,15 @@
 
 import Foundation
 
-struct Product: Decodable {
+struct Products : Codable {
+    var products: [Product]
+}
+
+struct Product: Codable {
     var id: String
-    #warning("Complete this data structure")
+    var barcode: String?
+    var name: String
+    var description: String?
+    var image_url: String
+    var retail_price: Int
 }
